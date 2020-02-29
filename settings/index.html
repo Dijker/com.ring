@@ -25,6 +25,11 @@
                 <input class="form-input" id="settings-auth-pass" data-i18n-placeholder="" type="password" value=""/>
             </div>
 
+            <div class="field row">
+                <label class="form-label" for="settings-auth-code" data-i18n="settings.auth.code"></label>
+                <input class="form-input" id="settings-auth-code" data-i18n-placeholder="" type="text" value=""/>
+            </div>
+
             <button id="settings-auth-authenticate" data-i18n="settings.auth.authenticate"></button>
         </div>
 
@@ -77,6 +82,7 @@
 
             auth.user = document.getElementById('settings-auth-user').value;
             auth.pass = document.getElementById('settings-auth-pass').value;
+            auth.code = document.getElementById('settings-auth-code').value;
 
             Homey.set('ringCredentials', auth);
         }
