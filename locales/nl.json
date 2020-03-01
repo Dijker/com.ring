@@ -11,6 +11,7 @@
             "warning": "Two-Factor Authenticatie is niet ondersteund, dit moet uitgeschakeld zijn op je Ring account!",
             "user": "Email",
             "pass": "Wachtwoord",
+            "code": "Authenticatiecode van e-mail",
             "authenticate": "Autoriseer",
             "revoke": "Verwijder autorisatie"
         }
